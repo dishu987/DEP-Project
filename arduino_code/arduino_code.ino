@@ -40,8 +40,5 @@ void loop()
     String str4 = String(temp4, 4);
     String str5 = String(temp5, 4);
     Serial.println(str+","+str1+","+str2+","+str3+","+str4+","+str5); 
-//    For testing purpose only
-//    Serial.println("1.34,2.234,3.245,4.234,5.124,6.12345"); 
-//    Delay between consucative readings
     delay(2000);
 }
